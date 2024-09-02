@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+     
+        <h1>Alexandre - Desenvolvedor Backend</h1>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            &#9776;
+        </button>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#formacoes">Formações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="sobre-mim">
+           
+            <h2 class="carro">Sobre Mim</h2>
+            <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layou</p>
+            <p> t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout is a long established fact that a reader will be distracted by the readable content of a page when looking at its layou</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Comunicativo</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+        </section>
+
+        <section id="formacoes">
+            <h2>Formações</h2>
+            <p>Iniciei meus estudos na TI em 2024, onde comecei minha primeira faculdade.</p>
+            <strong class="instituicao">Uninter</strong>Tecnólogo em Análise e desenvolvimento de sistemas 2024 - 2026
+          
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Aqui você pode entrar em contato comigo:</p>
+            <p><a href="mailto:alexandrecardoso1221@gmail.com"><i class="fas fa-envelope"></i>Email: alexandrecardoso1221@gmail.com</a></p>
+            <p><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+            <p><a href="https://wa.me/551899634-8054" target="_blank"><i class="fab fa-whatsapp"></i>18 99634-8054</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Alexandre - Desenvolvedor Backend. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
